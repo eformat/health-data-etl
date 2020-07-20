@@ -1,0 +1,18 @@
+{
+  "dataStreamId": "derived:com.google.active_minutes:com.google.android.gms:from_activity\u003c-merge_activity_segments",
+  "dataStreamName": "from_activity\u003c-merge_activity_segments",
+  "type": "derived",
+  "dataType": {
+    "name": "com.google.active_minutes",
+    "field": [
+      {
+        "name": "duration",
+        "format": "integer"
+      }
+    ]
+  },
+  "application": {
+    "packageName": "com.google.android.gms"
+  },
+  "dataQualityStandard": []
+}

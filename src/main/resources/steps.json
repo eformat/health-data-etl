@@ -1,0 +1,111 @@
+{
+  "minStartTimeNs": "1544887669506000000",
+  "maxEndTimeNs": "1595060469507000000",
+  "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:from_activity\u003c-merge_activity_segments",
+  "point": [
+    {
+      "startTimeNanos": "1552395540000000000",
+      "endTimeNanos": "1552395600000000000",
+      "dataTypeName": "com.google.active_minutes",
+      "originDataSourceId": "derived:com.google.activity.segment:com.google.android.gms:merge_activity_segments",
+      "value": [
+        {
+          "intVal": 1,
+          "mapVal": []
+        }
+      ],
+      "modifiedTimeMillis": "1552401772486"
+    },
+    {
+      "startTimeNanos": "1552395600000000000",
+      "endTimeNanos": "1552395660000000000",
+      "dataTypeName": "com.google.active_minutes",
+      "originDataSourceId": "derived:com.google.activity.segment:com.google.android.gms:merge_activity_segments",
+      "value": [
+        {
+          "intVal": 1,
+          "mapVal": []
+        }
+      ],
+      "modifiedTimeMillis": "1552401772486"
+    },
+    {
+      "startTimeNanos": "1552395660000000000",
+      "endTimeNanos": "1552395720000000000",
+      "dataTypeName": "com.google.active_minutes",
+      "originDataSourceId": "derived:com.google.activity.segment:com.google.android.gms:merge_activity_segments",
+      "value": [
+        {
+          "intVal": 1,
+          "mapVal": []
+        }
+      ],
+      "modifiedTimeMillis": "1552401772486"
+    },
+    {
+      "startTimeNanos": "1552395720000000000",
+      "endTimeNanos": "1552395780000000000",
+      "dataTypeName": "com.google.active_minutes",
+      "originDataSourceId": "derived:com.google.activity.segment:com.google.android.gms:merge_activity_segments",
+      "value": [
+        {
+          "intVal": 1,
+          "mapVal": []
+        }
+      ],
+      "modifiedTimeMillis": "1552401772486"
+    },
+    {
+      "startTimeNanos": "1552395780000000000",
+      "endTimeNanos": "1552395840000000000",
+      "dataTypeName": "com.google.active_minutes",
+      "originDataSourceId": "derived:com.google.activity.segment:com.google.android.gms:merge_activity_segments",
+      "value": [
+        {
+          "intVal": 1,
+          "mapVal": []
+        }
+      ],
+      "modifiedTimeMillis": "1552401772486"
+    },
+    {
+      "startTimeNanos": "1552395840000000000",
+      "endTimeNanos": "1552395900000000000",
+      "dataTypeName": "com.google.active_minutes",
+      "originDataSourceId": "derived:com.google.activity.segment:com.google.android.gms:merge_activity_segments",
+      "value": [
+        {
+          "intVal": 1,
+          "mapVal": []
+        }
+      ],
+      "modifiedTimeMillis": "1552401772486"
+    },
+    {
+      "startTimeNanos": "1552395900000000000",
+      "endTimeNanos": "1552395960000000000",
+      "dataTypeName": "com.google.active_minutes",
+      "originDataSourceId": "derived:com.google.activity.segment:com.google.android.gms:merge_activity_segments",
+      "value": [
+        {
+          "intVal": 1,
+          "mapVal": []
+        }
+      ],
+      "modifiedTimeMillis": "1552401772486"
+    },
+    {
+      "startTimeNanos": "1552395960000000000",
+      "endTimeNanos": "1552396020000000000",
+      "dataTypeName": "com.google.active_minutes",
+      "originDataSourceId": "derived:com.google.activity.segment:com.google.android.gms:merge_activity_segments",
+      "value": [
+        {
+          "intVal": 1,
+          "mapVal": []
+        }
+      ],
+      "modifiedTimeMillis": "1552401772486"
+    }
+  ]
+}
