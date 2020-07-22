@@ -1,0 +1,747 @@
+{
+  "dataSource": [
+    {
+      "dataStreamId": "derived:com.google.active_minutes:com.google.android.gms:from_activity\u003c-merge_activity_segments",
+      "dataStreamName": "from_activity\u003c-merge_activity_segments",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.active_minutes",
+        "field": [
+          {
+            "name": "duration",
+            "format": "integer"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.active_minutes:com.google.android.gms:from_steps\u003c-estimated_steps",
+      "dataStreamName": "from_steps\u003c-estimated_steps",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.active_minutes",
+        "field": [
+          {
+            "name": "duration",
+            "format": "integer"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.active_minutes:com.google.android.gms:from_steps\u003c-merge_step_deltas",
+      "dataStreamName": "from_steps\u003c-merge_step_deltas",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.active_minutes",
+        "field": [
+          {
+            "name": "duration",
+            "format": "integer"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.active_minutes:com.google.android.gms:merge_active_minutes",
+      "dataStreamName": "merge_active_minutes",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.active_minutes",
+        "field": [
+          {
+            "name": "duration",
+            "format": "integer"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:merge_activity_segments",
+      "dataStreamName": "merge_activity_segments",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.activity.segment",
+        "field": [
+          {
+            "name": "activity",
+            "format": "integer"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:SM-G960F:78033c27:activity_from_steps",
+      "dataStreamName": "activity_from_steps",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.activity.segment",
+        "field": [
+          {
+            "name": "activity",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "78033c27",
+        "type": "phone",
+        "version": "",
+        "model": "SM-G960F",
+        "manufacturer": "samsung"
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:SM-G960F:78033c27:from_activity_samples\u003c-derived:com.google.activity.samples:com.google.android.gms:samsung:SM-G960F:78033c27:detailed",
+      "dataStreamName": "from_activity_samples\u003c-derived:com.google.activity.samples:com.google.android.gms:samsung:SM-G960F:78033c27:detailed",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.activity.segment",
+        "field": [
+          {
+            "name": "activity",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "78033c27",
+        "type": "phone",
+        "version": "",
+        "model": "SM-G960F",
+        "manufacturer": "samsung"
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.calories.bmr:com.google.android.gms:from_height&weight",
+      "dataStreamName": "from_height&weight",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.calories.bmr",
+        "field": [
+          {
+            "name": "calories",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.calories.bmr:com.google.android.gms:merged",
+      "dataStreamName": "merged",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.calories.bmr",
+        "field": [
+          {
+            "name": "calories",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.calories.expended:com.google.android.gms:from_activities",
+      "dataStreamName": "from_activities",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.calories.expended",
+        "field": [
+          {
+            "name": "calories",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+      "dataStreamName": "merge_calories_expended",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.calories.expended",
+        "field": [
+          {
+            "name": "calories",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.calories.expended:com.google.android.gms:platform_calories_expended",
+      "dataStreamName": "platform_calories_expended",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.calories.expended",
+        "field": [
+          {
+            "name": "calories",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:from_high_accuracy_location\u003c-derived:com.google.location.sample:com.google.android.gms:merge_high_fidelity",
+      "dataStreamName": "from_high_accuracy_location\u003c-derived:com.google.location.sample:com.google.android.gms:merge_high_fidelity",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:from_steps\u003c-merge_step_deltas",
+      "dataStreamName": "from_steps\u003c-merge_step_deltas",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:high_fidelity_from_activity\u003c-derived:com.google.location.sample:com.google.android.gms:merge_high_fidelity",
+      "dataStreamName": "high_fidelity_from_activity\u003c-derived:com.google.location.sample:com.google.android.gms:merge_high_fidelity",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:merge_distance_delta",
+      "dataStreamName": "merge_distance_delta",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:pruned_distance",
+      "dataStreamName": "pruned_distance",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:platform_distance_delta",
+      "dataStreamName": "platform_distance_delta",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:SM-G960F:78033c27:from_activity\u003c-raw:com.google.location.sample:com.google.android.gms:samsung:SM-G960F:78033c27:live_location",
+      "dataStreamName": "from_activity\u003c-raw:com.google.location.sample:com.google.android.gms:samsung:SM-G960F:78033c27:live_location",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "device": {
+        "uid": "78033c27",
+        "type": "phone",
+        "version": "",
+        "model": "SM-G960F",
+        "manufacturer": "samsung"
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:SM-G960F:78033c27:from_location\u003c-raw:com.google.location.sample:com.google.android.gms:samsung:SM-G960F:78033c27:live_location",
+      "dataStreamName": "from_location\u003c-raw:com.google.location.sample:com.google.android.gms:samsung:SM-G960F:78033c27:live_location",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "device": {
+        "uid": "78033c27",
+        "type": "phone",
+        "version": "",
+        "model": "SM-G960F",
+        "manufacturer": "samsung"
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.gms:bout_filtered_5min\u003c-merge_heart_minutes",
+      "dataStreamName": "bout_filtered_5min\u003c-merge_heart_minutes",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.heart_minutes",
+        "field": [
+          {
+            "name": "intensity",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.gms:from_activity\u003c-merge_activity_segments",
+      "dataStreamName": "from_activity\u003c-merge_activity_segments",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.heart_minutes",
+        "field": [
+          {
+            "name": "intensity",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.gms:from_heart_rate\u003c-merge_heart_rate_bpm",
+      "dataStreamName": "from_heart_rate\u003c-merge_heart_rate_bpm",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.heart_minutes",
+        "field": [
+          {
+            "name": "intensity",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.gms:from_steps\u003c-estimated_steps",
+      "dataStreamName": "from_steps\u003c-estimated_steps",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.heart_minutes",
+        "field": [
+          {
+            "name": "intensity",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.gms:from_steps\u003c-merge_step_deltas",
+      "dataStreamName": "from_steps\u003c-merge_step_deltas",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.heart_minutes",
+        "field": [
+          {
+            "name": "intensity",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.gms:merge_heart_minutes",
+      "dataStreamName": "merge_heart_minutes",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.heart_minutes",
+        "field": [
+          {
+            "name": "intensity",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.gms:normalised\u003c-bout_filtered_5min",
+      "dataStreamName": "normalised\u003c-bout_filtered_5min",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.heart_minutes",
+        "field": [
+          {
+            "name": "intensity",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.height:com.google.android.gms:merge_height",
+      "dataStreamName": "merge_height",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.height",
+        "field": [
+          {
+            "name": "height",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.speed:com.google.android.gms:from_distance\u003c-merge_distance_delta",
+      "dataStreamName": "from_distance\u003c-merge_distance_delta",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.speed",
+        "field": [
+          {
+            "name": "speed",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.speed:com.google.android.gms:merge_speed",
+      "dataStreamName": "merge_speed",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.speed",
+        "field": [
+          {
+            "name": "speed",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+      "dataStreamName": "estimated_steps",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:merge_step_deltas",
+      "dataStreamName": "merge_step_deltas",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:samsung:SM-G960F:78033c27:derive_step_deltas\u003c-raw:com.google.step_count.cumulative:samsung:SM-G960F:78033c27:SAMSUNG Step Counter Sensor",
+      "dataStreamName": "derive_step_deltas\u003c-raw:com.google.step_count.cumulative:samsung:SM-G960F:78033c27:SAMSUNG Step Counter Sensor",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "78033c27",
+        "type": "phone",
+        "version": "",
+        "model": "SM-G960F",
+        "manufacturer": "samsung"
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "derived:com.google.weight:com.google.android.gms:merge_weight",
+      "dataStreamName": "merge_weight",
+      "type": "derived",
+      "dataType": {
+        "name": "com.google.weight",
+        "field": [
+          {
+            "name": "weight",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.gms"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "raw:com.google.distance.delta:com.dsi.ant.plugins.antplus:AntPlus.0.124",
+      "name": "Generic ANT+ Sensor",
+      "dataStreamName": "AntPlus.0.124",
+      "type": "raw",
+      "dataType": {
+        "name": "com.google.distance.delta",
+        "field": [
+          {
+            "name": "distance",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.dsi.ant.plugins.antplus"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "raw:com.google.height:com.google.android.apps.fitness:user_input",
+      "dataStreamName": "user_input",
+      "type": "raw",
+      "dataType": {
+        "name": "com.google.height",
+        "field": [
+          {
+            "name": "height",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "raw:com.google.step_count.cumulative:samsung:SM-G960F:78033c27:SAMSUNG Step Counter Sensor",
+      "dataStreamName": "SAMSUNG Step Counter Sensor",
+      "type": "raw",
+      "dataType": {
+        "name": "com.google.step_count.cumulative",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "device": {
+        "uid": "78033c27",
+        "type": "phone",
+        "version": "",
+        "model": "SM-G960F",
+        "manufacturer": "samsung"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "raw:com.google.step_count.delta:com.dsi.ant.plugins.antplus:AntPlus.0.124",
+      "name": "Generic ANT+ Sensor",
+      "dataStreamName": "AntPlus.0.124",
+      "type": "raw",
+      "dataType": {
+        "name": "com.google.step_count.delta",
+        "field": [
+          {
+            "name": "steps",
+            "format": "integer"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.dsi.ant.plugins.antplus"
+      },
+      "dataQualityStandard": []
+    },
+    {
+      "dataStreamId": "raw:com.google.weight:com.google.android.apps.fitness:user_input",
+      "dataStreamName": "user_input",
+      "type": "raw",
+      "dataType": {
+        "name": "com.google.weight",
+        "field": [
+          {
+            "name": "weight",
+            "format": "floatPoint"
+          }
+        ]
+      },
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      },
+      "dataQualityStandard": []
+    }
+  ]
+}
