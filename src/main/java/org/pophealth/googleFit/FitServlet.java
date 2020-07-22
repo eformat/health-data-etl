@@ -10,11 +10,14 @@ import com.google.api.client.http.HttpTransport;
 import com.google.api.client.http.javanet.NetHttpTransport;
 import com.google.api.client.json.jackson2.JacksonFactory;
 import java.io.IOException;
+import java.util.List;
 import javax.inject.Inject;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import org.pophealth.client.HealthDataService;
+import org.pophealth.model.HealthData;
 
 @WebServlet(name = "FitAuth", urlPatterns = "/fitAuth")
 public class FitServlet extends AbstractAuthorizationCodeServlet {
@@ -24,13 +27,18 @@ public class FitServlet extends AbstractAuthorizationCodeServlet {
     @Inject
     FitServletUtil fitUtil;
 
+    @Inject
+    HealthDataService healthDataService;
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)  throws IOException {
 
         try {
             Credential credential = getCredential();
             FitDataExtractor extractor = new FitDataExtractor();
-            extractor.extractData(credential, transport);
+            List<HealthData> data = extractor.extractData(credential, transport);
+
+            healthDataService.postRules(data);
         }catch(Exception e){
             e.printStackTrace();
         }
