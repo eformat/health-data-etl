@@ -34,8 +34,7 @@ public class FitDataExtractor {
                 .forEach(ds -> log.debug("Stream ID "+ds.getDataStreamId() + " Stream Name "+ds.getDataStreamName()));
 
         //TODO Configure data range for fetch
-
-        long hoursToFetch = 48*60*60*1000;
+        long hoursToFetch = 48*10*60*60*1000;
         long end = System.currentTimeMillis();
         long start = end - hoursToFetch;
 
