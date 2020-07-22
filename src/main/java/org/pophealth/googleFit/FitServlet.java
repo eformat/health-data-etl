@@ -16,6 +16,7 @@ import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import org.eclipse.microprofile.rest.client.inject.RestClient;
 import org.pophealth.client.HealthDataService;
 import org.pophealth.model.HealthData;
 
@@ -28,6 +29,7 @@ public class FitServlet extends AbstractAuthorizationCodeServlet {
     FitServletUtil fitUtil;
 
     @Inject
+    @RestClient
     HealthDataService healthDataService;
 
     @Override
